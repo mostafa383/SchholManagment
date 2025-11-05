@@ -1,4 +1,4 @@
-namespace SmartSchool.Controllers.Models
+namespace SmartSchool.Models
 {
     public class Student
     {
@@ -6,5 +6,7 @@ namespace SmartSchool.Controllers.Models
         public string Name { get; set; } = null!;
         public string Email { get; set; } = null!;
         public DateTime RegistrationDate { get; set; }
+
+        public ICollection<StudentCourse> StudentCourses { get; set; }=new List<StudentCourse>();
     }
 }
