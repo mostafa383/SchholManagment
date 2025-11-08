@@ -17,6 +17,8 @@ namespace SmartSchool.Configurations
             builder.HasMany(s => s.StudentCourses)
                 .WithOne(sc => sc.Student)
                 .HasForeignKey(sc => sc.StudentId);
+
+            builder.OwnsOne(e => e.Address);
         }
     }
     

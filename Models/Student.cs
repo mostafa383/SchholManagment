@@ -7,6 +7,7 @@ namespace SmartSchool.Models
         public string Email { get; set; } = null!;
         public DateTime RegistrationDate { get; set; }
 
-        public ICollection<StudentCourse> StudentCourses { get; set; }=new List<StudentCourse>();
+        public Address Address { get; set; } = null!;
+        public ICollection<StudentCourse> StudentCourses { get; set; } = new List<StudentCourse>();
     }
 }

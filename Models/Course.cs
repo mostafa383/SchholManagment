@@ -9,6 +9,9 @@ namespace SmartSchool.Models
         public int TeacherId { get; set; }
         public Teacher Teacher { get; set; } = null!;
 
+        public int DepartmentId { get; set; }
+        public Department Department { get; set; } = null!;
+
         public ICollection<StudentCourse> StudentCourses { get; set; } = new List<StudentCourse>();
     }
 }

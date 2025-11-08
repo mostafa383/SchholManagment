@@ -1,9 +1,10 @@
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using SmartSchool.Models;
 
 namespace SmartSchool.Data
 {
-    public class SchoolContext : DbContext
+    public class SchoolContext : IdentityDbContext<Teacher>
     {
         public SchoolContext(DbContextOptions<SchoolContext> options) : base(options)
         {
@@ -12,6 +13,7 @@ namespace SmartSchool.Data
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<StudentCourse> StudentCourses { get; set; }
+        public DbSet<Department> Departments { get; set; }
 
         override protected void OnModelCreating(ModelBuilder modelBuilder)
         {
