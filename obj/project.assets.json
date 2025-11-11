@@ -5559,24 +5559,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hadeel\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Mustafa Omar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hadeel\\Desktop\\SchoolManagemt\\SmartSchool\\SmartSchool.csproj",
+      "projectUniqueName": "C:\\Users\\Mustafa Omar\\SchholManagment\\SmartSchool.csproj",
       "projectName": "SmartSchool",
-      "projectPath": "C:\\Users\\Hadeel\\Desktop\\SchoolManagemt\\SmartSchool\\SmartSchool.csproj",
-      "packagesPath": "C:\\Users\\Hadeel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hadeel\\Desktop\\SchoolManagemt\\SmartSchool\\obj\\",
+      "projectPath": "C:\\Users\\Mustafa Omar\\SchholManagment\\SmartSchool.csproj",
+      "packagesPath": "C:\\Users\\Mustafa Omar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mustafa Omar\\SchholManagment\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Hadeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Mustafa Omar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5666,7 +5661,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

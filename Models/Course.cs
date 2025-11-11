@@ -6,7 +6,7 @@ namespace SmartSchool.Models
         public string Title { get; set; } = null!;
         public int Credits { get; set; }
 
-        public int TeacherId { get; set; }
+        public required string TeacherId { get; set; }
         public Teacher Teacher { get; set; } = null!;
 
         public int DepartmentId { get; set; }

@@ -63,7 +63,7 @@ namespace SmartSchool.Controllers
         }
 
         [HttpPut("UpdateCourseTeacher/{courseId}/{teacherId}")]
-        public async Task<IActionResult> UpdateCourseTeacher(int courseId, int teacherId)
+        public async Task<IActionResult> UpdateCourseTeacher(int courseId, string teacherId)
         {
             using var transaction = await context.Database.BeginTransactionAsync();
             try
